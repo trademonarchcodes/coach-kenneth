@@ -73,3 +73,7 @@ h1{font-size:clamp(46px,5.7vw,75px);letter-spacing:-.075em;line-height:.99;text-
 @keyframes glow-pulse{0%,100%{opacity:.72;transform:scale(.96)}50%{opacity:1;transform:scale(1.06)}}
 @keyframes phone-float{0%,100%{translate:0 0;rotate:4deg}50%{translate:0 -9px;rotate:2deg}}
 @keyframes play-glow{0%,100%{box-shadow:0 0 0 12px rgba(0,129,255,.12),0 0 45px rgba(0,156,255,.38)}50%{box-shadow:0 0 0 17px rgba(0,129,255,.08),0 0 70px rgba(0,156,255,.62)}}
+
+
+/* Client-supplied Coach Kenneth logo */
+.brand-logo{width:48px;height:48px;display:block;object-fit:contain;flex:0 0 auto;border-radius:10px;filter:drop-shadow(0 0 14px rgba(88,225,237,.12))}.footer-brand .brand-logo{width:42px;height:42px}@media(max-width:600px){.brand-logo{width:42px;height:42px}.footer-brand .brand-logo{width:38px;height:38px}}

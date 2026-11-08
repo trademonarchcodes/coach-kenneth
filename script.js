@@ -22,7 +22,7 @@ const year = document.querySelector('#year');
 if (year) year.textContent = new Date().getFullYear();
 
 const revealTargets = document.querySelectorAll(
-  '.intro-grid, .video-heading, .video-placeholder, .step-card, .benefits-panel, .faq-grid, .final-cta'
+  '.intro-grid, .video-heading, .video-player, .step-card, .benefits-panel, .faq-grid, .final-cta'
 );
 
 revealTargets.forEach((element) => element.classList.add('reveal'));

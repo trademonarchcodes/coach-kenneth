@@ -2,3 +2,74 @@
 @media(max-width:900px){.section-shell{width:min(100% - 44px,720px)}.site-header{padding:0 22px}.hero{grid-template-columns:1fr .8fr;min-height:610px}.hero-art{transform:scale(.85);margin-left:-30px}.hero-bottomline{font-size:8px;gap:12px}.intro-grid{gap:45px}.steps-grid{grid-template-columns:repeat(2,1fr)}.benefits-panel{padding:42px;gap:32px}.faq-grid{gap:45px}}
 @media(max-width:680px){html{scroll-padding-top:72px}.section-shell{width:calc(100% - 38px)}.site-header{height:72px;padding:0 19px}.brand-mark{width:38px;height:38px}.brand-name{font-size:11px}.menu-toggle{display:flex;width:42px;height:42px;border:1px solid var(--line);background:#101a30;border-radius:9px;flex-direction:column;justify-content:center;align-items:center;gap:6px}.menu-toggle span{height:2px;width:17px;background:#d9e6ff;transition:transform .2s}.menu-toggle[aria-expanded=true] span:first-child{transform:translateY(4px) rotate(45deg)}.menu-toggle[aria-expanded=true] span:last-child{transform:translateY(-4px) rotate(-45deg)}.primary-nav{display:none;position:absolute;top:71px;left:0;right:0;padding:17px 20px 22px;background:#0c1426;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0}.primary-nav.is-open{display:flex}.primary-nav a{padding:13px 5px;border-bottom:1px solid rgba(190,208,255,.08)}.primary-nav .nav-cta{margin-top:12px;text-align:center;border:1px solid rgba(88,225,237,.38);padding:13px}.hero{display:flex;flex-direction:column;align-items:stretch;padding-top:67px;padding-bottom:85px;min-height:0}.eyebrow{font-size:8px;letter-spacing:1.5px;margin-bottom:22px}h1{font-size:clamp(43px,12vw,66px);line-height:1.01;margin-bottom:21px}.hero-lead{font-size:14px;line-height:1.8}.hero-actions{gap:18px;flex-wrap:wrap}.button{min-height:50px;padding:0 16px;font-size:11px;gap:12px}.text-link{font-size:11px}.hero-note{font-size:10px;margin-top:22px}.hero-art{height:370px;margin:12px 0 0;transform:scale(.84);transform-origin:center center}.phone-card{width:220px;height:360px}.phone-title{font-size:36px}.card-top{right:-3px;top:38px}.card-bottom{left:-6px;bottom:27px}.floating-card{padding:10px 12px}.floating-card b{font-size:10px}.floating-card small{font-size:8px}.hero-bottomline{bottom:25px;justify-content:center;flex-wrap:wrap;font-size:7px;letter-spacing:1px;gap:9px}.intro-section{padding:78px 0}.intro-grid{grid-template-columns:1fr;gap:24px;margin-top:24px}.intro-grid h2,.video-heading h2,.section-title-row h2,.faq-grid h2{font-size:43px}.large-copy{font-size:18px}.intro-copy p:not(.large-copy){font-size:13px}.video-section{padding:70px 0 80px}.video-heading{display:block}.video-heading h2{margin-top:18px}.video-heading>p{margin-top:18px}.video-placeholder{height:300px;border-radius:12px}.video-placeholder:before{width:250px;height:250px}.video-placeholder:after{width:330px;height:330px}.video-play{width:65px;height:65px}.video-center p{font-size:20px;margin-top:23px}.video-corner{font-size:7px;bottom:15px}.video-corner-left{left:13px}.video-corner-right{right:13px}.how-section{padding:75px 0 80px}.section-title-row{display:block;margin:23px 0 30px}.section-title-row>p{margin-top:17px}.steps-grid{grid-template-columns:1fr;gap:10px}.step-card{min-height:190px;padding:21px}.step-card h3{margin-top:24px}.benefits-section{padding-bottom:80px}.benefits-panel{grid-template-columns:1fr;padding:29px 23px;gap:35px}.benefits-copy h2{font-size:47px;margin:20px 0}.benefits-copy>p{font-size:12px}.benefit-item{grid-template-columns:24px 1fr 15px;gap:9px;padding:17px 0}.benefit-item h3{font-size:12px}.benefit-item p{font-size:10px}.faq-section{padding:75px 0 80px}.faq-grid{grid-template-columns:1fr;gap:24px;margin-top:22px}.faq-grid>div:first-child>p{max-width:340px}.faq-list summary{font-size:12px}.faq-list details p{font-size:11px}.final-cta{padding:75px 5px 80px}.final-cta h2{font-size:clamp(39px,11vw,58px)}.final-cta>p{font-size:12px}.button-large{font-size:10px;padding:0 15px}.footer-bottom{flex-direction:column;gap:10px;font-size:9px}.site-footer{padding:30px 19px 20px}.floating-whatsapp{right:13px;bottom:13px;padding:10px 13px}.floating-whatsapp b{font-size:10px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+
+
+/* COACH KENNETH — electric-blue campaign visual direction */
+:root{--bg:#030817;--panel:#07152d;--panel2:#0a1b38;--blue:#087cff;--cyan:#00d9ff;--line:rgba(50,145,255,.23)}
+body{background:radial-gradient(ellipse at 82% 13%,rgba(0,92,255,.17),transparent 34%),radial-gradient(ellipse at 12% 48%,rgba(0,195,255,.07),transparent 32%),#030817}
+.site-header{background:rgba(3,8,23,.88);border-bottom-color:rgba(35,131,255,.2)}
+.brand-mark{border-radius:50%;border:2px solid #168dff;box-shadow:0 0 0 4px rgba(0,133,255,.1),0 0 28px rgba(0,133,255,.35);background:radial-gradient(circle at 35% 25%,#174c91,#06142c 72%)}
+.brand-name b{color:#20baff}
+.primary-nav{padding:7px 9px;border:1px solid rgba(85,155,255,.18);border-radius:40px;background:rgba(8,23,48,.78);box-shadow:0 8px 28px rgba(0,0,0,.2)}
+.primary-nav a{padding:8px 13px;border-radius:30px}
+.primary-nav a:hover{color:white;background:rgba(0,123,255,.22)}
+.primary-nav .nav-cta{border:1px solid #078cff;background:linear-gradient(110deg,#0567f7,#04b9e8);color:#fff;box-shadow:0 0 20px rgba(0,135,255,.35)}
+.primary-nav .nav-cta span{color:white}
+.hero{min-height:700px;padding-top:70px}
+.eyebrow{padding:9px 15px;width:max-content;border:1px solid rgba(0,180,255,.45);border-radius:30px;background:rgba(0,111,255,.13);color:#bceaff;box-shadow:0 0 22px rgba(0,132,255,.14)}
+h1{font-size:clamp(46px,5.7vw,75px);letter-spacing:-.075em;line-height:.99;text-shadow:0 4px 35px rgba(0,0,0,.28)}
+.gradient-text{background:linear-gradient(100deg,#25aaff 0%,#00e0ff 52%,#83f4ff 100%);-webkit-background-clip:text;background-clip:text}
+.hero-lead{color:#d0def4;font-size:16px;max-width:540px}
+.button-primary{background:linear-gradient(105deg,#075cf5,#078cff 58%,#00c8e9);color:#fff;border-radius:40px;box-shadow:0 0 0 5px rgba(0,120,255,.08),0 12px 36px rgba(0,104,255,.35)}
+.button-primary:hover{box-shadow:0 0 0 7px rgba(0,120,255,.1),0 15px 45px rgba(0,151,255,.5)}
+.text-link{color:#d9e9ff}
+.hero-art{isolation:isolate}
+.art-glow{width:430px;height:430px;background:radial-gradient(circle,rgba(0,126,255,.42),rgba(0,205,255,.14) 43%,transparent 72%);filter:blur(18px)}
+.orbit{border:2px solid rgba(0,145,255,.34);box-shadow:0 0 20px rgba(0,128,255,.12),inset 0 0 20px rgba(0,128,255,.08)}
+.orbit-one{width:470px;height:300px;transform:rotate(-28deg)}
+.orbit-two{width:410px;height:480px;transform:rotate(39deg);border-color:rgba(0,218,255,.24)}
+.phone-card{width:260px;height:410px;border:1px solid rgba(53,170,255,.8);border-radius:25px;background:linear-gradient(150deg,rgba(9,37,78,.97),rgba(3,11,29,.97) 65%);box-shadow:0 0 0 7px rgba(0,127,255,.08),0 0 55px rgba(0,119,255,.4),0 35px 90px rgba(0,0,0,.55);transform:rotate(4deg)}
+.phone-label{color:#51dfff}
+.phone-title{font-size:43px;line-height:1.02;letter-spacing:-3px}
+.phone-title span{color:#00dfff;text-shadow:0 0 28px rgba(0,215,255,.5)}
+.phone-line{width:85px;height:4px;box-shadow:0 0 15px #078cff}
+.phone-orb{background:radial-gradient(circle at 35% 30%,#9afaff,#087dff 44%,transparent 70%);filter:blur(4px)}
+.floating-card{border:1px solid rgba(34,157,255,.48);background:rgba(4,19,43,.94);box-shadow:0 0 25px rgba(0,120,255,.16),0 14px 35px rgba(0,0,0,.35)}
+.mini-icon,.mini-check{background:linear-gradient(145deg,#087cff,#00cbe9);color:white;border-radius:50%;box-shadow:0 0 18px rgba(0,151,255,.35)}
+.hero-bottomline{color:#8eacd6}
+.intro-section,.video-section,.how-section,.faq-section{border-color:rgba(43,134,255,.2)}
+.large-copy{color:#f2f7ff}
+.video-placeholder{border:1px solid rgba(0,151,255,.55);background:radial-gradient(ellipse at 50% 55%,rgba(0,123,255,.34),transparent 50%),linear-gradient(135deg,#071d3e,#030918 70%);box-shadow:0 0 35px rgba(0,114,255,.12),inset 0 0 45px rgba(0,117,255,.08)}
+.video-play{background:linear-gradient(140deg,#087cff,#00d9f2);color:white;box-shadow:0 0 0 12px rgba(0,129,255,.12),0 0 65px rgba(0,156,255,.6)}
+.step-card{background:linear-gradient(145deg,rgba(7,31,68,.95),rgba(4,13,32,.96));border-color:rgba(36,132,255,.25);border-radius:18px}
+.step-card:hover{border-color:#00cfff;box-shadow:0 12px 38px rgba(0,115,255,.16)}
+.step-symbol{color:#00dfff;text-shadow:0 0 17px rgba(0,190,255,.5)}
+.step-line{background:linear-gradient(90deg,#087cff,#00e5ff);box-shadow:0 0 12px #087cff}
+.benefits-panel{background:radial-gradient(ellipse at 85% 20%,rgba(0,125,255,.24),transparent 45%),linear-gradient(125deg,#082653,#06132c 62%,#041a32);border-color:rgba(0,149,255,.35);box-shadow:0 20px 70px rgba(0,0,0,.2)}
+.button-light{border-radius:40px;background:linear-gradient(110deg,#eaf7ff,#9feeff);color:#03152b}
+.benefit-item{border-color:rgba(87,160,255,.2)}
+.faq-list details{border-color:rgba(75,145,255,.2)}
+.final-cta{border-color:rgba(43,134,255,.2)}
+.floating-whatsapp{background:linear-gradient(110deg,#d8fff2,#8ef4d0);box-shadow:0 0 25px rgba(0,221,153,.18),0 8px 30px rgba(0,0,0,.35)}
+.footer-credit a{color:#20baff}
+.footer-credit a:hover,.footer-credit a:focus-visible{color:#00e5ff;text-shadow:0 0 14px rgba(0,229,255,.8)}
+@media(max-width:680px){
+ .primary-nav{border:0;border-radius:0;background:#061329;box-shadow:none}
+ .primary-nav a:hover{background:rgba(0,123,255,.14)}
+ .hero{padding-top:55px}
+ .hero-art{height:365px;transform:scale(.8);margin-inline:-20px}
+ .phone-card{width:245px;height:385px}
+ .hero-bottomline{font-size:6.5px}
+ .video-placeholder{box-shadow:0 0 22px rgba(0,114,255,.1)}
+}
+@media(prefers-reduced-motion:no-preference){
+ .orbit-one{animation:orbit-drift 17s ease-in-out infinite alternate}
+ .orbit-two{animation:orbit-drift 22s ease-in-out infinite alternate-reverse}
+ .art-glow{animation:glow-pulse 5s ease-in-out infinite}
+ .phone-card{animation:phone-float 6s ease-in-out infinite}
+ .video-play{animation:play-glow 3s ease-in-out infinite}
+}
+@keyframes orbit-drift{from{transform:rotate(-28deg) scale(.96)}to{transform:rotate(-19deg) scale(1.04)}}
+@keyframes glow-pulse{0%,100%{opacity:.72;transform:scale(.96)}50%{opacity:1;transform:scale(1.06)}}
+@keyframes phone-float{0%,100%{translate:0 0;rotate:4deg}50%{translate:0 -9px;rotate:2deg}}
+@keyframes play-glow{0%,100%{box-shadow:0 0 0 12px rgba(0,129,255,.12),0 0 45px rgba(0,156,255,.38)}50%{box-shadow:0 0 0 17px rgba(0,129,255,.08),0 0 70px rgba(0,156,255,.62)}}
